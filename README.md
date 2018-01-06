@@ -5,6 +5,37 @@
 
 ### Template names
 
+### Formating
+
+* Use 4 spaces for indentation
+
+**Bad**
+```html
+<a href="#">
+  <span></span>
+</a>
+
+**Good**
+<a href="#">
+	<span></span>
+</a>
+
+* Use dashes over camelCasing in class names.
+
+**Bad**
+```html
+<div class="productImage">
+	...
+</div>
+```
+
+**Good**
+```html
+<div class="product-image">
+	...
+</div>
+```
+
 ## CSS
 
 ### Formatting
@@ -12,23 +43,35 @@
 * Use 4 spaces for indentation
 
 **Bad**
-
 ```css
 .menu{
-  border-radius:50%;
- border:2px solid white; }
+  background: blue;
+}
 ```
 
 **Good**
-
 ```css
 .menu {
-    border-radius: 50%;
-    border: 2px solid white;
+  	background: blue;
 }
 ```
 
 * Use dashes over camelCasing in class names.
+
+**Bad**
+```css
+.productName{
+	font-size: 16px;
+}
+```
+
+**Good**
+```css
+.product-name {
+  	font-size: 16px;
+}
+```
+
 * Do not use ID selectors
 * When using multiple selectors in a rule declaration, give each selector its own line.
 * Put a space before the opening brace `{` in rule declarations
