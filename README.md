@@ -1,2 +1,6 @@
 # C&A Brasil Storefront Styleguide
-Style guide for development
+*Styleguide for HTML, CSS and JS development*
+
+## HTML Templates
+
+### Template names
