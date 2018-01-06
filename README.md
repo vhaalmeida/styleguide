@@ -14,11 +14,14 @@
 <a href="#">
   <span></span>
 </a>
+```
 
 **Good**
+```html
 <a href="#">
 	<span></span>
 </a>
+```
 
 * Use dashes over camelCasing in class names.
 
